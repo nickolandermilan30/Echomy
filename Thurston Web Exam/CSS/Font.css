@@ -1,0 +1,22 @@
+
+
+@font-face {
+    font-family: 'Meltix';
+    src: url('../Resources/Fonts/meltix/Meltix_Bold_Demo.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Meltix_Regular';
+    src: url('../Resources/Fonts/meltix/Meltix_Regular_Demo.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Meltix_Light';
+    src: url('../Resources/Fonts/meltix/Meltix_Light_Demo.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

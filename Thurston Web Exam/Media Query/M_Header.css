@@ -1,0 +1,29 @@
+
+@media screen and (max-width: 768px) {
+    .header-nav {
+        display: none;
+        flex-direction: column;
+        background-color: var(--Everglade);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-icons {
+        display: flex;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .header-nav.active {
+        display: flex;
+    }
+
+    .header-nav a {
+        margin: 10px 0;
+    }
+}

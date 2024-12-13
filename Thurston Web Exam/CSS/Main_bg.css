@@ -1,0 +1,92 @@
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.image-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 0; 
+}
+
+.image-container .main-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    pointer-events: none; 
+}
+
+.image-container .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1; 
+}
+
+.image-container .content h1 {
+    font-size: 65px;
+    margin-bottom: 15px; 
+    font-family: 'Meltix_Regular', sans-serif;
+    font-weight: bold;
+}
+
+.image-container .content p {
+    font-size: 20px; 
+    margin-bottom: 20px; 
+}
+
+.action-btn {
+    padding: 12px 25px;
+    background-color: var(--Chelsea_Cucumber); 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Meltix', sans-serif;
+    font-size: 18px; 
+    margin: 15px; 
+    transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: var(--green); 
+}
+
+
+.action-btn.contact-outline {
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid white; 
+}
+
+.action-btn.contact-outline:hover {
+    background-color: white; 
+    color: var(--Chelsea_Cucumber); 
+    border-color: var(--Chelsea_Cucumber); 
+}
+
+.image-container .content {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 45%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1; 
+}
+
+
