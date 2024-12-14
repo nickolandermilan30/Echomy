@@ -32,3 +32,5 @@ landSpaceBox.addEventListener('touchend', () => {
     isDown = false; // End swipe activity
     landSpaceBox.style.scrollBehavior = 'smooth'; // Re-enable smooth scrolling
 });
+
+

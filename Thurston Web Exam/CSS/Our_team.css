@@ -1,0 +1,83 @@
+.Our-Team {
+    width: 100%;
+    background-color: var(--Roman_Coffee); /* Use your variable color */
+    color: white;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.Our-Team .team-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Our-Team h2 {
+    font-family: 'Meltix';
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Our-Team p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.team-box {
+    background-color: var(--white); /* Darker background for cards */
+    border-radius: 0px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.team-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0%; /* No rounded edges */
+    object-fit: cover;
+    margin-bottom: 15px;
+    padding: 10px; /* Padding around the image */
+    background-color: var(--green);
+    box-sizing: border-box; /* Includes padding in size */
+}
+
+.team-box h3 {
+    font-family: 'Meltix';
+    color: var(--Everglade);
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.team-box span {
+    font-size: 16px;
+    font-family: 'Meltix_Regular';
+    color: var(--green);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.team-box p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: var(--black);
+}
+
+
+

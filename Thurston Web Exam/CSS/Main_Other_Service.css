@@ -28,7 +28,21 @@
     color: var(--green);
     margin-bottom: 15px;
     text-align: left; /* Align text to the left for desktop */
+    position: relative;
+    display: inline-block; /* Ensure the element and icon align correctly */
 }
+
+.service-text h2::after {
+    content: '\f06c'; /* Font Awesome unicode for leaf */
+    font-family: 'Font Awesome 5 Free'; /* Ensure Font Awesome is loaded */
+    font-weight: 900; /* Set the weight to match the icon style */
+    color: var(--green); /* Match the color with the heading */
+    font-size: 24px; /* Adjust the icon size */
+    margin-left: 10px; /* Space between text and icon */
+    position: relative; /* Ensure correct alignment */
+    top: 3px; /* Adjust for vertical alignment with text */
+}
+
 
 .service-text p {
     font-size: 16px;
@@ -79,6 +93,7 @@
 }
 
 .service-box h3 {
+    font-family: 'Meltix_Regular';
     font-size: 18px;
     color: var(--textColor, #333);
     margin-bottom: 10px;
@@ -86,6 +101,7 @@
 
 .service-box p {
     font-size: 14px;
+    font-family: 'Roboto', sans-serif; 
     color: var(--textLightColor, #666);
     margin-bottom: 15px;
 }
@@ -101,32 +117,3 @@
     text-decoration: underline;
 }
 
-/* Media Query for Mobile Screens */
-@media screen and (max-width: 768px) {
-    .service-content {
-        flex-direction: column; /* Stack the content vertically */
-        align-items: center; /* Center the content horizontally */
-        gap: 20px; /* Reduce the gap between sections */
-    }
-
-    .service-text {
-        max-width: 100%; /* Take full width on mobile */
-        text-align: center; /* Center-align text */
-    }
-
-    .service-text h2 {
-        font-size: 30px; /* Reduce font size for headings */
-        text-align: center; /* Center-align heading on mobile */
-    }
-
-    .service-text p {
-        font-size: 14px; /* Reduce font size for paragraphs */
-        text-align: center; /* Center-align paragraph on mobile */
-    }
-
-    .service-container {
-        grid-template-columns: 1fr; /* Single column layout */
-        gap: 20px; /* Maintain spacing between boxes */
-        width: 100%; /* Take full width */
-    }
-}

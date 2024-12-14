@@ -3,3 +3,33 @@
        
     }
 }
+
+/* Media Query for Mobile Screens */
+@media screen and (max-width: 768px) {
+    .service-content {
+        flex-direction: column; /* Stack the content vertically */
+        align-items: center; /* Center the content horizontally */
+        gap: 20px; /* Reduce the gap between sections */
+    }
+
+    .service-text {
+        max-width: 100%; /* Take full width on mobile */
+        text-align: center; /* Center-align text */
+    }
+
+    .service-text h2 {
+        font-size: 30px; /* Reduce font size for headings */
+        text-align: center; /* Center-align heading on mobile */
+    }
+
+    .service-text p {
+        font-size: 14px; /* Reduce font size for paragraphs */
+        text-align: center; /* Center-align paragraph on mobile */
+    }
+
+    .service-container {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 20px; /* Maintain spacing between boxes */
+        width: 100%; /* Take full width */
+    }
+}
