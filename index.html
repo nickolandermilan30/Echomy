@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Echomy</title>
 
+         <!-- Favicon -->
+        <link rel="icon" href="./Thurston Web Exam/img/logo.png" type="image/x-icon">
+
          <!-- Font -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
 
@@ -16,6 +19,9 @@
         <link rel="stylesheet" href="./Thurston Web Exam/CSS/Main_Service.css">
         <link rel="stylesheet" href="./Thurston Web Exam/CSS/Main_Other_Service.css">
         <link rel="stylesheet" href="./Thurston Web Exam/CSS/Our_team.css">
+        <link rel="stylesheet" href="./Thurston Web Exam/CSS/Our_team.css">
+        <link rel="stylesheet" href="./Thurston Web Exam/CSS/Contact_us.css">
+        <link rel="stylesheet" href="./Thurston Web Exam/CSS/Footer.css">
 
         <!-- Media Query -->
         <link rel="stylesheet" href="./Thurston Web Exam/Animation/Keyframe.css">
@@ -53,7 +59,7 @@
         </header>
 
         <main>
-            <section class="Background">
+            <section id="home" class="Background">
                 <img src="./Thurston Web Exam/img/background_image.jpg" alt="Main Content Image" class="main-image">
                 <div class="content">
                     <h1>Welcome to Echomy</h1>
@@ -66,7 +72,7 @@
             </section>
         
      
-            <section class="land-space-box-wrapper">
+            <section id="service" class="land-space-box-wrapper">
                 <div class="land-space-box">
                     <div class="land-item">
                         <img src="./Thurston Web Exam/Resources/Images/64/iconmonstr-cube-1-120.png" alt="3D Animation">
@@ -126,8 +132,8 @@
                 </div>
             </section>
 
-             <!-- New "Our Team" Section -->
-             <section class="Our-Team">
+             <section id="our-team" class="Our-Team">
+                
                 <div class="team-container">
                     <h2>Our Talented Colleagues</h2>
                     <p>Meet the team behind our success</p>
@@ -159,11 +165,90 @@
                     </div>
                 </div>
             </section>
-            
-           
-        </main>
         
-    
+            
+
+            <section id="contact-us" class="contact-section">
+                <div class="contact-intro">
+                    <h1>Contact Us</h1>
+                    <p>Feel free to reach out to us for any questions or inquiries. We are here to assist you!</p>
+                </div>
+            
+
+                <div class="contact-container">
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1981269.7718101793!2d121.54961919999997!3d14.096793599999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1734166225162!5m2!1sen!2sph"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+            
+                    <div class="contact-form">
+                        <h2>Get in Touch!</h2>
+                        <p>For any question, please fill out all fields.</p>
+                        <form action="#" method="POST">
+                            <input type="text" name="name" 
+                            placeholder="Please Enter Your Name" required>
+                            <input type="email" name="email" 
+                            placeholder="Please Enter Your Email" required>
+                            <select name="service" required>
+                                <option value="" disabled selected>Choose Type of Service</option>
+                                <option value="web-design">Web Design</option>
+                                <option value="3d-animation">3D Animation</option>
+                                <option value="Support">Support</option>
+                                <option value="cloud-service">Cloud Service</option>
+                                <option value="maintenance">Maintenance</option>
+                                <option value="graphic-design">Graphic Designing</option>
+                                <option value="system-develop">System Develop</option>
+                                <option value="digital-art">Digital Art</option>
+                            </select>
+                            <textarea name="message" placeholder="Please Enter Your Message" rows="5" required></textarea>
+                            <button type="submit" class="send-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="faq" class="footer-container">
+                <div class="footer-box">
+                    <div class="footer-text">
+                        <p>&copy; 2024 Echomy. All Rights Reserved.</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" 
+                        target="_blank" 
+                        aria-label="Facebook" 
+                        class="icon-box">
+
+                        <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com" 
+                        target="_blank" 
+                        aria-label="Instagram" 
+                        class="icon-box">
+
+                        <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com" 
+                        target="_blank" 
+                        aria-label="LinkedIn" 
+                        class="icon-box">
+
+                        <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com" 
+                        target="_blank" 
+                        aria-label="GitHub" 
+                        class="icon-box">
+                        <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+            
+            
+            
+
+        </main>
         <script src="./Thurston Web Exam/JS/script.js"></script>
     </body>
 </html>

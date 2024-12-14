@@ -1,6 +1,6 @@
 .Our-Team {
     width: 100%;
-    background-color: var(--Roman_Coffee); /* Use your variable color */
+    background-color: var(--Roman_Coffee);
     color: white;
     padding: 50px 20px;
     box-sizing: border-box;
@@ -33,7 +33,7 @@
 }
 
 .team-box {
-    background-color: var(--white); /* Darker background for cards */
+    background-color: var(--white); 
     border-radius: 0px;
     padding: 20px;
     text-align: center;
@@ -48,12 +48,12 @@
 .team-img {
     width: 200px;
     height: 200px;
-    border-radius: 0%; /* No rounded edges */
+    border-radius: 0%; 
     object-fit: cover;
     margin-bottom: 15px;
-    padding: 10px; /* Padding around the image */
+    padding: 10px; 
     background-color: var(--green);
-    box-sizing: border-box; /* Includes padding in size */
+    box-sizing: border-box;
 }
 
 .team-box h3 {

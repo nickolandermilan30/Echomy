@@ -1,0 +1,134 @@
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-container {
+    display: flex;
+    max-width: 1200px;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
+.contact-form {
+    flex: 1;
+    background-color: #fff;
+    padding: 15px; 
+    border-radius: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.contact-form h2 {
+    color: var(--green);
+    font-family: 'Meltix';
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.contact-form p {
+    color: var(--black);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%; 
+    max-width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    font-size: 0.9em;
+    box-sizing: border-box; 
+    text-align: left;
+}
+
+.contact-form textarea {
+    resize: none; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-form button.send-btn {
+    background-color: var(--green); 
+    color: #fff; 
+    padding: 15px;
+    border: none;
+    border-radius: 0; 
+    cursor: pointer;
+    font-size: 1em; 
+    width: auto; 
+    margin: 15px 0 0 0; 
+    text-align: left;
+    font-family: 'Meltix', sans-serif;
+}
+
+.contact-form button.send-btn:hover {
+    background-color: var(--Everglade);
+}
+
+.contact-map {
+    flex: 1;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-intro {
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+.contact-intro h1 {
+    font-size: 2em; 
+    color: var(--green);
+    margin-bottom: 10px;
+    font-family: 'Meltix', sans-serif;
+}
+
+.contact-intro p {
+    font-size: 1em;
+    color: var(--black);
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    max-width: 600px; 
+    line-height: 1.6; 
+}
+
+.contact-container {
+    display: flex;
+    max-width: 1200px;
+    gap: 20px;
+    width: 100%;
+}
+
+
+
