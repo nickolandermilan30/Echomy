@@ -5,6 +5,11 @@
     overflow: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 .Background::before {
     content: '';
     position: absolute;
@@ -69,6 +74,7 @@
 .action-btn.contact-outline {
     background-color: transparent; 
     color: white; 
+    text-decoration: none;
     border: 2px solid white; 
 }
 
