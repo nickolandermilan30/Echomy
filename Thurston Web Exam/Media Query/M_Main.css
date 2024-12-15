@@ -47,3 +47,17 @@
         order: 2; 
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .Background .content div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; /* Adds spacing between buttons */
+    }
+
+    .action-btn {
+        text-align: center;
+    }
+}
